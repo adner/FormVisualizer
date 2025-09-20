@@ -1,0 +1,280 @@
+2025-09-20 11:23:07.363 +02:00 [DBG] Hosting starting
+2025-09-20 11:23:07.428 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 11:23:07.437 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 11:23:07.465 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 11:23:07.467 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 11:23:07.467 +02:00 [INF] Hosting environment: Production
+2025-09-20 11:23:07.467 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 11:23:07.468 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 11:23:07.468 +02:00 [DBG] Hosting started
+2025-09-20 11:23:07.470 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 11:23:07.470 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 11:23:50.379 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 11:23:50.382 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 11:23:50.382 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 11:23:50.383 +02:00 [INF] Application is shutting down...
+2025-09-20 11:23:50.383 +02:00 [DBG] Hosting stopping
+2025-09-20 11:23:50.383 +02:00 [DBG] Hosting stopped
+2025-09-20 11:23:50.384 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 11:23:50.384 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:39:28.367 +02:00 [DBG] Hosting starting
+2025-09-20 13:39:28.433 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:39:28.441 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:39:28.470 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:39:28.472 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:39:28.472 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:39:28.472 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:39:28.472 +02:00 [DBG] Hosting started
+2025-09-20 13:39:28.472 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:39:28.474 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:39:28.474 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:39:56.635 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:39:56.638 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:39:56.638 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:39:56.638 +02:00 [INF] Application is shutting down...
+2025-09-20 13:39:56.639 +02:00 [DBG] Hosting stopping
+2025-09-20 13:39:56.639 +02:00 [DBG] Hosting stopped
+2025-09-20 13:39:56.640 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:39:56.640 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:42:30.922 +02:00 [DBG] Hosting starting
+2025-09-20 13:42:30.986 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:42:30.995 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:42:31.022 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:42:31.024 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:42:31.024 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:42:31.024 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:42:31.024 +02:00 [DBG] Hosting started
+2025-09-20 13:42:31.024 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:42:31.026 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:42:31.027 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:42:59.210 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:42:59.212 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:42:59.213 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:42:59.213 +02:00 [INF] Application is shutting down...
+2025-09-20 13:42:59.213 +02:00 [DBG] Hosting stopping
+2025-09-20 13:42:59.214 +02:00 [DBG] Hosting stopped
+2025-09-20 13:42:59.215 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:42:59.215 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:45:55.633 +02:00 [DBG] Hosting starting
+2025-09-20 13:45:55.695 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:45:55.703 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:45:55.730 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:45:55.732 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:45:55.732 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:45:55.732 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:45:55.732 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:45:55.732 +02:00 [DBG] Hosting started
+2025-09-20 13:45:55.734 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:45:55.734 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:46:22.789 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:46:22.791 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:46:22.792 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:46:22.792 +02:00 [INF] Application is shutting down...
+2025-09-20 13:46:22.792 +02:00 [DBG] Hosting stopping
+2025-09-20 13:46:22.793 +02:00 [DBG] Hosting stopped
+2025-09-20 13:46:22.794 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:46:22.794 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:49:12.838 +02:00 [DBG] Hosting starting
+2025-09-20 13:49:12.899 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:49:12.907 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:49:12.934 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:49:12.936 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:49:12.936 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:49:12.937 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:49:12.937 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:49:12.937 +02:00 [DBG] Hosting started
+2025-09-20 13:49:12.938 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:49:12.939 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:49:18.638 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:49:18.640 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:49:18.641 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:49:18.641 +02:00 [INF] Application is shutting down...
+2025-09-20 13:49:18.641 +02:00 [DBG] Hosting stopping
+2025-09-20 13:49:18.642 +02:00 [DBG] Hosting stopped
+2025-09-20 13:49:18.643 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:49:18.643 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:53:26.485 +02:00 [DBG] Hosting starting
+2025-09-20 13:53:26.542 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:53:26.550 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:53:26.577 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:53:26.579 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:53:26.579 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:53:26.579 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:53:26.579 +02:00 [DBG] Hosting started
+2025-09-20 13:53:26.579 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:53:26.581 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:53:26.582 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:53:26.598 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '(no id)'.
+2025-09-20 13:53:26.598 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcNotification message from channel.
+2025-09-20 13:53:37.267 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:53:37.269 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:53:37.270 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:53:37.270 +02:00 [INF] Application is shutting down...
+2025-09-20 13:53:37.270 +02:00 [DBG] Hosting stopping
+2025-09-20 13:53:37.271 +02:00 [DBG] Hosting stopped
+2025-09-20 13:53:37.272 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:53:37.272 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:54:31.549 +02:00 [DBG] Hosting starting
+2025-09-20 13:54:31.606 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:54:31.614 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:54:31.640 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:54:31.643 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:54:31.643 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:54:31.643 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:54:31.643 +02:00 [DBG] Hosting started
+2025-09-20 13:54:31.643 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:54:31.645 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:54:31.645 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:54:31.660 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '(no id)'.
+2025-09-20 13:54:31.661 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcNotification message from channel.
+2025-09-20 13:54:32.037 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '2'.
+2025-09-20 13:54:32.037 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 13:54:32.037 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler called.
+2025-09-20 13:54:32.041 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler completed.
+2025-09-20 13:54:32.041 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:54:37.921 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:54:37.923 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:54:37.924 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:54:37.924 +02:00 [INF] Application is shutting down...
+2025-09-20 13:54:37.924 +02:00 [DBG] Hosting stopping
+2025-09-20 13:54:37.925 +02:00 [DBG] Hosting stopped
+2025-09-20 13:54:37.926 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:54:37.926 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:55:27.113 +02:00 [DBG] Hosting starting
+2025-09-20 13:55:27.171 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:55:27.178 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:55:27.206 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:55:27.209 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:55:27.209 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:55:27.209 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:55:27.209 +02:00 [DBG] Hosting started
+2025-09-20 13:55:27.209 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:55:27.211 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:55:27.212 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:55:27.227 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '(no id)'.
+2025-09-20 13:55:27.227 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcNotification message from channel.
+2025-09-20 13:55:27.231 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '2'.
+2025-09-20 13:55:27.231 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 13:55:27.231 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler called.
+2025-09-20 13:55:27.234 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler completed.
+2025-09-20 13:55:27.234 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:55:51.342 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:55:51.344 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:55:51.344 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:55:51.344 +02:00 [INF] Application is shutting down...
+2025-09-20 13:55:51.345 +02:00 [DBG] Hosting stopping
+2025-09-20 13:55:51.346 +02:00 [DBG] Hosting stopped
+2025-09-20 13:55:51.347 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:55:51.347 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:57:00.386 +02:00 [DBG] Hosting starting
+2025-09-20 13:57:00.446 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:57:00.453 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:57:00.481 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:57:00.483 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:57:00.483 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:57:00.483 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:57:00.483 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:57:00.483 +02:00 [DBG] Hosting started
+2025-09-20 13:57:00.485 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:57:00.485 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:57:00.498 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '(no id)'.
+2025-09-20 13:57:00.498 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcNotification message from channel.
+2025-09-20 13:57:00.502 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '2'.
+2025-09-20 13:57:00.502 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 13:57:00.502 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler called.
+2025-09-20 13:57:00.505 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler completed.
+2025-09-20 13:57:00.505 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:57:36.204 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:57:36.206 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:57:36.206 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:57:36.207 +02:00 [INF] Application is shutting down...
+2025-09-20 13:57:36.207 +02:00 [DBG] Hosting stopping
+2025-09-20 13:57:36.208 +02:00 [DBG] Hosting stopped
+2025-09-20 13:57:36.209 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:57:36.209 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:57:45.219 +02:00 [DBG] Hosting starting
+2025-09-20 13:57:45.282 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:57:45.291 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:57:45.319 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:57:45.321 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:57:45.321 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:57:45.321 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:57:45.321 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:57:45.321 +02:00 [DBG] Hosting started
+2025-09-20 13:57:45.323 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:57:45.324 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:57:45.337 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '(no id)'.
+2025-09-20 13:57:45.337 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcNotification message from channel.
+2025-09-20 13:57:45.341 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '2'.
+2025-09-20 13:57:45.341 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 13:57:45.341 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler called.
+2025-09-20 13:57:45.344 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler completed.
+2025-09-20 13:57:45.344 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:58:11.006 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:58:11.008 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:58:11.008 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:58:11.009 +02:00 [INF] Application is shutting down...
+2025-09-20 13:58:11.009 +02:00 [DBG] Hosting stopping
+2025-09-20 13:58:11.010 +02:00 [DBG] Hosting stopped
+2025-09-20 13:58:11.011 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:58:11.011 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:58:22.038 +02:00 [DBG] Hosting starting
+2025-09-20 13:58:22.096 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:58:22.104 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:58:22.131 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:58:22.133 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:58:22.133 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:58:22.133 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:58:22.133 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:58:22.134 +02:00 [DBG] Hosting started
+2025-09-20 13:58:22.135 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:58:22.135 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:58:22.148 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '(no id)'.
+2025-09-20 13:58:22.149 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcNotification message from channel.
+2025-09-20 13:58:22.152 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '2'.
+2025-09-20 13:58:22.153 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 13:58:22.153 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler called.
+2025-09-20 13:58:22.155 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler completed.
+2025-09-20 13:58:22.155 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:58:47.012 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '3'.
+2025-09-20 13:58:47.012 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 13:58:47.013 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/call' request handler called.
+2025-09-20 13:58:47.021 +02:00 [ERR] ❌ Error: Dataverse URL is not provided or is invalid.
+System.ArgumentException: Dataverse URL is not provided or is invalid.
+   at Greg.Xrm.Mcp.Core.Authentication.DataverseClientProviderFromArguments.GetDataverseClientAsync() in D:\a\Greg.Xrm.Mcp\Greg.Xrm.Mcp\src\Greg.Xrm.Mcp.Core\Authentication\DataverseClientProviderFromArguments.cs:line 16
+   at Greg.Xrm.Mcp.Extensions.GetDataverseContextAsync(IDataverseClientProvider clientProvider) in D:\a\Greg.Xrm.Mcp\Greg.Xrm.Mcp\src\Greg.Xrm.Mcp.Engine\Model\Extensions.cs:line 10
+   at Greg.Xrm.Mcp.Server.Tools.AppModules.GetAppList.Execute() in D:\a\Greg.Xrm.Mcp\Greg.Xrm.Mcp\src\Greg.Xrm.Mcp.Engine\Server\Tools\AppModules\GetAppList.cs:line 115
+2025-09-20 13:58:47.038 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/call' request handler completed.
+2025-09-20 13:58:47.038 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:58:57.407 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport completed reading messages.
+2025-09-20 13:58:57.409 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shutting down.
+2025-09-20 13:58:57.410 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) shut down.
+2025-09-20 13:58:57.410 +02:00 [INF] Application is shutting down...
+2025-09-20 13:58:57.410 +02:00 [DBG] Hosting stopping
+2025-09-20 13:58:57.411 +02:00 [DBG] Hosting stopped
+2025-09-20 13:58:57.412 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shutting down.
+2025-09-20 13:58:57.412 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) shut down.
+2025-09-20 13:59:36.849 +02:00 [DBG] Hosting starting
+2025-09-20 13:59:36.906 +02:00 [INF] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport reading messages.
+2025-09-20 13:59:36.913 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '1'.
+2025-09-20 13:59:36.941 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) read JsonRpcRequest message from channel.
+2025-09-20 13:59:36.943 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-20 13:59:36.943 +02:00 [INF] Hosting environment: Production
+2025-09-20 13:59:36.943 +02:00 [INF] Content root path: C:\Sandboxes\FormVisualizer
+2025-09-20 13:59:36.943 +02:00 [DBG] Hosting started
+2025-09-20 13:59:36.944 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16) method 'initialize' request handler called.
+2025-09-20 13:59:36.945 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'initialize' request handler completed.
+2025-09-20 13:59:36.946 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 13:59:36.959 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '(no id)'.
+2025-09-20 13:59:36.959 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcNotification message from channel.
+2025-09-20 13:59:36.963 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '2'.
+2025-09-20 13:59:36.963 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 13:59:36.963 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler called.
+2025-09-20 13:59:36.966 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/list' request handler completed.
+2025-09-20 13:59:36.966 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.
+2025-09-20 14:00:02.072 +02:00 [DBG] Server (stream) (Greg.Xrm.Mcp.AppMaker) transport received message with ID '3'.
+2025-09-20 14:00:02.072 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) read JsonRpcRequest message from channel.
+2025-09-20 14:00:02.072 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/call' request handler called.
+2025-09-20 14:00:02.210 +02:00 [INF] Connection to Dataverse established successfully: https://org41df0750.crm4.dynamics.com
+2025-09-20 14:00:08.117 +02:00 [INF] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) method 'tools/call' request handler completed.
+2025-09-20 14:00:08.117 +02:00 [DBG] Server (Greg.Xrm.Mcp.AppMaker 1.2025.9.16), Client (FormVisualizer 1.0.0.0) sending message.

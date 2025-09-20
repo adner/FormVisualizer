@@ -46,6 +46,8 @@
     {
         CancelAnyCurrentResponse();
 
+        PromptExecutionSettings settings = new() { FunctionChoiceBehavior = FunctionChoiceBehavior.Auto() }; 
+
         var chatCompletionService = Kernel.GetRequiredService<IChatCompletionService>();
 
         // Add the user message to the conversation
@@ -57,7 +59,7 @@
         var responseText = new Microsoft.Extensions.AI.TextContent("");
         currentResponseMessage = new ChatMessage(ChatRole.Assistant, [responseText]);
         currentResponseCancellation = new();
-        await foreach (var update in chatCompletionService.GetStreamingChatMessageContentsAsync(ChatHistoryHelper.ToChatHistory(messages), null, null, currentResponseCancellation.Token))
+        await foreach (var update in chatCompletionService.GetStreamingChatMessageContentsAsync(ChatHistoryHelper.ToChatHistory(messages), settings, Kernel, currentResponseCancellation.Token))
         {
             messages.AddMessages(update.ToChatResponseUpdate(), filter: c => c is not Microsoft.Extensions.AI.TextContent);
             responseText.Text += update.Content;
