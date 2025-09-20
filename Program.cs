@@ -4,26 +4,32 @@ using FormVisualizer.Services;
 using FormVisualizer.Services.Ingestion;
 using OpenAI;
 using System.ClientModel;
+using Microsoft.SemanticKernel;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents().AddInteractiveServerComponents();
 
-var credential = new ApiKeyCredential(builder.Configuration["ApiToken"] ?? throw new Exception("No API token found!"));
-var openAIOptions = new OpenAIClientOptions( );
+var apiKey = builder.Configuration["ApiToken"] ?? throw new Exception("No API token found!");
 
-var ghModelsClient = new OpenAIClient(credential, openAIOptions);
-var chatClient = ghModelsClient.GetChatClient("gpt-4o-mini").AsIChatClient();
-var embeddingGenerator = ghModelsClient.GetEmbeddingClient("text-embedding-3-small").AsIEmbeddingGenerator();
+builder.Services.AddSingleton<KernelPluginCollection>((serviceProvider) => 
+    [
+        // KernelPluginFactory.CreateFromObject(serviceProvider.GetRequiredService<LightsPlugin>()),
+        // KernelPluginFactory.CreateFromObject(serviceProvider.GetRequiredService<SpeakerPlugin>())
+    ]
+);
 
-var vectorStorePath = Path.Combine(AppContext.BaseDirectory, "vector-store.db");
-var vectorStoreConnectionString = $"Data Source={vectorStorePath}";
-builder.Services.AddSqliteCollection<string, IngestedChunk>("data-formvisualizer-chunks", vectorStoreConnectionString);
-builder.Services.AddSqliteCollection<string, IngestedDocument>("data-formvisualizer-documents", vectorStoreConnectionString);
+builder.Services.AddOpenAIChatCompletion(
+    modelId: "gpt-4o-mini",
+    apiKey: apiKey
+    // orgId: "YOUR_ORG_ID", // Optional; for OpenAI deployment
+    // serviceId: "YOUR_SERVICE_ID" // Optional; for targeting specific services within Semantic Kernel
+);
 
-builder.Services.AddScoped<DataIngestor>();
-builder.Services.AddSingleton<SemanticSearch>();
-builder.Services.AddChatClient(chatClient).UseFunctionInvocation().UseLogging();
-builder.Services.AddEmbeddingGenerator(embeddingGenerator);
+builder.Services.AddTransient((serviceProvider)=> {
+    KernelPluginCollection pluginCollection = serviceProvider.GetRequiredService<KernelPluginCollection>();
+
+    return new Kernel(serviceProvider, pluginCollection);
+});
 
 var app = builder.Build();
 
@@ -41,13 +47,5 @@ app.UseAntiforgery();
 app.UseStaticFiles();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
-
-// By default, we ingest PDF files from the /wwwroot/Data directory. You can ingest from
-// other sources by implementing IIngestionSource.
-// Important: ensure that any content you ingest is trusted, as it may be reflected back
-// to users or could be a source of prompt injection risk.
-await DataIngestor.IngestDataAsync(
-    app.Services,
-    new PDFDirectorySource(Path.Combine(builder.Environment.WebRootPath, "Data")));
 
 app.Run();

@@ -1,8 +1,11 @@
 ﻿@page "/"
 @using System.ComponentModel
-@inject IChatClient ChatClient
+@using Microsoft.SemanticKernel
+@using Microsoft.SemanticKernel.ChatCompletion
+@using FormVisualizer.Services
 @inject NavigationManager Nav
-@inject SemanticSearch Search
+
+@inject Kernel Kernel
 @implements IDisposable
 
 <PageTitle>Chat</PageTitle>
@@ -25,22 +28,9 @@
 
 @code {
     private const string SystemPrompt = @"
-        You are an assistant who answers questions about information you retrieve.
-        Do not answer questions about anything else.
-        Use only simple markdown to format your responses.
-
-        Use the search tool to find relevant information. When you do this, end your
-        reply with citations in the special XML format:
-
-        <citation filename='string' page_number='number'>exact quote here</citation>
-
-        Always include the citation in your response if there are results.
-
-        The quote must be max 5 words, taken word-for-word from the search result, and is the basis for why the citation is relevant.
-        Don't refer to the presence of citations; just emit these tags right at the end, with no surrounding text.
+       You are a helpful assistant.
         ";
 
-    private readonly ChatOptions chatOptions = new();
     private readonly List<ChatMessage> messages = new();
     private CancellationTokenSource? currentResponseCancellation;
     private ChatMessage? currentResponseMessage;
@@ -50,12 +40,13 @@
     protected override void OnInitialized()
     {
         messages.Add(new(ChatRole.System, SystemPrompt));
-        chatOptions.Tools = [AIFunctionFactory.Create(SearchAsync)];
     }
 
     private async Task AddUserMessageAsync(ChatMessage userMessage)
     {
         CancelAnyCurrentResponse();
+
+        var chatCompletionService = Kernel.GetRequiredService<IChatCompletionService>();
 
         // Add the user message to the conversation
         messages.Add(userMessage);
@@ -63,14 +54,15 @@
         await chatInput!.FocusAsync();
 
         // Stream and display a new response from the IChatClient
-        var responseText = new TextContent("");
+        var responseText = new Microsoft.Extensions.AI.TextContent("");
         currentResponseMessage = new ChatMessage(ChatRole.Assistant, [responseText]);
         currentResponseCancellation = new();
-        await foreach (var update in ChatClient.GetStreamingResponseAsync([.. messages], chatOptions, currentResponseCancellation.Token))
+        await foreach (var update in chatCompletionService.GetStreamingChatMessageContentsAsync(ChatHistoryHelper.ToChatHistory(messages), null, null, currentResponseCancellation.Token))
         {
-            messages.AddMessages(update, filter: c => c is not TextContent);
-            responseText.Text += update.Text;
+            messages.AddMessages(update.ToChatResponseUpdate(), filter: c => c is not Microsoft.Extensions.AI.TextContent);
+            responseText.Text += update.Content;
             ChatMessageItem.NotifyChanged(currentResponseMessage);
+            StateHasChanged(); // Trigger UI update for streaming
         }
 
         // Store the final response in the conversation, and begin getting suggestions
@@ -98,17 +90,6 @@
         messages.Add(new(ChatRole.System, SystemPrompt));
         chatSuggestions?.Clear();
         await chatInput!.FocusAsync();
-    }
-
-    [Description("Searches for information using a phrase or keyword")]
-    private async Task<IEnumerable<string>> SearchAsync(
-        [Description("The phrase to search for.")] string searchPhrase,
-        [Description("If possible, specify the filename to search that file only. If not provided or empty, the search includes all files.")] string? filenameFilter = null)
-    {
-        await InvokeAsync(StateHasChanged);
-        var results = await Search.SearchAsync(searchPhrase, filenameFilter, maxResults: 5);
-        return results.Select(result =>
-            $"<result filename=\"{result.DocumentId}\" page_number=\"{result.PageNumber}\">{result.Text}</result>");
     }
 
     public void Dispose()

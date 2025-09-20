@@ -1,4 +1,9 @@
-@inject IChatClient ChatClient
+@using Microsoft.SemanticKernel
+@using Microsoft.SemanticKernel.ChatCompletion
+@using Microsoft.Extensions.AI
+@using FormVisualizer.Services
+@using Microsoft.SemanticKernel.Connectors.OpenAI
+@inject Kernel Kernel
 
 @if (suggestions is not null)
 {
@@ -46,10 +51,23 @@
 
         try
         {
-            var response = await ChatClient.GetResponseAsync<string[]>(
-                [.. ReduceMessages(messages), new(ChatRole.User, Prompt)],
+            var chatCompletionService = Kernel.GetRequiredService<IChatCompletionService>();
+
+            var executionSettings = new OpenAIPromptExecutionSettings
+{
+    ResponseFormat = "json_object"
+};
+            
+            var response = await chatCompletionService.GetChatMessageContentAsync(
+                ChatHistoryHelper.ToChatHistory(ReduceMessages(messages).Append(new ChatMessage(ChatRole.User, Prompt))), 
                 cancellationToken: cancellation.Token);
-            if (!response.TryGetResult(out suggestions))
+            
+            // Try to parse the response as a JSON array of strings
+            try
+            {
+                suggestions = response.Content?.Split('\n', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries) ?? Array.Empty<string>();
+            }
+            catch
             {
                 suggestions = null;
             }
