@@ -355,3 +355,4 @@ Temporary Items
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,macos,windows
 
 appsettings.Development.json
+log2025*.txt

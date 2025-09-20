@@ -16,7 +16,7 @@ builder.Services.AddRazorComponents().AddInteractiveServerComponents();
 var apiKey = builder.Configuration["ApiToken"] ?? throw new Exception("No API token found!");
 
 builder.Services.AddOpenAIChatCompletion(
-    modelId: "gpt-4o-mini",
+    modelId: "gpt-5-nano",
     apiKey: apiKey
 // orgId: "YOUR_ORG_ID", // Optional; for OpenAI deployment
 // serviceId: "YOUR_SERVICE_ID" // Optional; for targeting specific services within Semantic Kernel

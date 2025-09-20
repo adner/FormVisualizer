@@ -12,23 +12,35 @@
 
 <ChatHeader OnNewChat="@ResetConversationAsync" />
 
-<ChatMessageList Messages="@messages" InProgressMessage="@currentResponseMessage">
-    <NoMessagesContent>
-        <div>To get started, try asking about these example documents. You can replace these with your own data and replace this message.</div>
-        <ChatCitation File="Example_Emergency_Survival_Kit.pdf"/>
-        <ChatCitation File="Example_GPS_Watch.pdf"/>
-    </NoMessagesContent>
-</ChatMessageList>
+<div style="display: flex; height: calc(100vh - 60px); margin-top: 60px; box-sizing: border-box;">
+    <div style="flex: 2; padding: 1rem; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+        <iframe @ref="formIframe" id="dataverseIframe"
+                src="@iframeSrc"
+                style="width: 80%; height: 80%; border: 1px solid #ccc; box-sizing: border-box;"
+                title="Form Preview">
+        </iframe>
+    </div>
 
-<div class="chat-container">
-    <ChatSuggestions OnSelected="@AddUserMessageAsync" @ref="@chatSuggestions" />
-    <ChatInput OnSend="@AddUserMessageAsync" @ref="@chatInput" />
-    <SurveyPrompt /> @* Remove this line to eliminate the template survey message *@
+    <div id="aiChatDiv" style="flex: 1; display: flex; flex-direction: column; padding: 1rem; padding-left: 0; padding-bottom: 0; min-width: 400px; overflow: hidden; height: 100%;">
+        <div style="flex: 1; overflow-y: auto; min-height: 0; margin-bottom: 0.5rem;">
+            <ChatMessageList Messages="@messages" InProgressMessage="@currentResponseMessage">
+                <NoMessagesContent>
+                    <div>Welcome to the form customization assistant!.</div>
+                </NoMessagesContent>
+            </ChatMessageList>
+        </div>
+
+        <div class="chat-container" style="flex-shrink: 0; overflow: visible; max-height: 200px; padding-bottom: 1rem;">
+            <ChatSuggestions OnSelected="@AddUserMessageAsync" @ref="@chatSuggestions" />
+            <ChatInput OnSend="@AddUserMessageAsync" @ref="@chatInput" />
+            <SurveyPrompt /> @* Remove this line to eliminate the template survey message *@
+        </div>
+    </div>
 </div>
 
 @code {
     private const string SystemPrompt = @"
-       You are a helpful assistant.
+       You are a helpful assistant that have access to tools to help the user do customizations in Dataverse.
         ";
 
     private readonly List<ChatMessage> messages = new();
@@ -36,6 +48,8 @@
     private ChatMessage? currentResponseMessage;
     private ChatInput? chatInput;
     private ChatSuggestions? chatSuggestions;
+    private ElementReference formIframe;
+    private string iframeSrc = "https://org41df0750.crm4.dynamics.com/";
 
     protected override void OnInitialized()
     {
@@ -92,6 +106,22 @@
         messages.Add(new(ChatRole.System, SystemPrompt));
         chatSuggestions?.Clear();
         await chatInput!.FocusAsync();
+    }
+
+    private void SetIframeSrc(string newSrc)
+    {
+        iframeSrc = newSrc;
+        StateHasChanged();
+    }
+
+    private async Task RefreshIframeAsync()
+    {
+        var currentSrc = iframeSrc;
+        iframeSrc = "about:blank";
+        StateHasChanged();
+        await Task.Delay(100);
+        iframeSrc = currentSrc;
+        StateHasChanged();
     }
 
     public void Dispose()
